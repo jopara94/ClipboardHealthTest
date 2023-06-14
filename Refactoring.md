@@ -17,4 +17,4 @@ I wrote 4 unit tests to cover existing functionality.
 - Test 3 was to ensure the length of the provided partitionKey did not exceed 256 characters.
 - Test 4 was to ensure the return of the hash of the stringified partitionKey when provided with a non-string partitionKey.
 
-For my refactoring exercise, I utilized optional chaining to simplify the check for the 'event.partitionKey'. I chained the methods for 'crypto.createHash()' to make my code more consice. I used a ternary operator to simplify the process of assiging the candidate. Finally, I reduced the number of unnecessary variables to make the code more easily readable and reduce repetition.
+For my refactoring exercise, I utilized optional chaining to simplify the check for the 'event.partitionKey'. I chained the methods for 'crypto.createHash()' to make my code more concise. I used a ternary operator to simplify the process of assigning the candidate. Finally, I reduced the number of unnecessary variables to make the code more easily readable and reduce repetition.
